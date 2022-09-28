@@ -1,0 +1,19 @@
+.footer {
+  height: 120px;
+  
+}
+
+.signUpImage {
+  width: 202vh;
+}
+.footer-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  float: left;
+  img{
+    width: 25%;
+    
+  }
+}

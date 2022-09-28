@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/pages/fonts/Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Poppins;
+  background-color: white;//Antes white-----------------------------------
+
+  .logo {
+    width: 250px;
+    height: 100px;
+    background-image: url("../assets/sicurezza-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+  }
+
+  .active {
+    background-color: #32a8ea;
+    color: white;
+    .activeicons:last-child {
+      display: none;
+    }
+    .activeicons:first-child {
+      display: none;
+    }
+  }
+  :not(.active) {
+    .activeicons:nth-child(2) {
+      display: none;
+    }
+  }
+
+  .activeicons {
+    color: white;
+    stroke: white;
+    background-repeat: no-repeat;
+  }
+
+  .logout {
+    padding: 8px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color: #9197b3;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+    width: 272px;
+    height: 60px;
+    margin-top: 5px;
+  }
+  a {
+    padding: 8px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color: #9197b3;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    width: 251.63px;
+    height: 41.32px;
+    margin-top: 5px;
+  }
+  #light{
+    background-color: white;
+  }
+  
+  #dark {
+    background-color: #0a0a0a;
+  }
+}

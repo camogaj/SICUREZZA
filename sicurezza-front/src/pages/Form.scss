@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.row-1 {
+  display: flex;
+  padding: 20px 10px;
+}
+.row-2 {
+  display: flex;
+  padding: 20px 10px;
+}
+
+.imput-form-text {
+  height: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 32px;
+  color: #525252;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.form-input-room {
+  box-sizing: border-box;
+  width: 300px;
+  height: 30px;
+  left: 51.47px;
+  top: 321.32px;
+  border: 0.779891px solid #b4b4b4;
+  border-radius: 15.5978px;
+}
+
+.btn-product {
+  margin-top: 30px;
+  width: 300px;
+  height: 35px;
+  box-shadow: 0px 4.67935px 10.9185px 1.55978px rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-radius: 31.1957px;
+  background: #32a8ea;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.0211em;
+  cursor: pointer;
+}

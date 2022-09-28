@@ -1,0 +1,48 @@
+.father {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 90px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  border-radius: 30px;
+  height: 800px;
+}
+.father::-webkit-scrollbar {
+  width: 0;
+}
+
+.devices {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  height: 250px;
+  width: 30%;
+  padding: 15px 0;
+  img {
+    width: 50%;
+    height: 70%;
+    
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.room-form {
+  width: 30%;
+  display: block;
+  box-sizing: border-box;
+  border: 10px solid black;
+  margin: 0px;
+  padding-bottom: 20px;
+  border: 0.779891px solid #b4b4b4;
+  border-radius: 16px;
+}
